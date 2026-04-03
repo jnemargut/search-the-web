@@ -123,17 +123,17 @@ The skill doesn't just run a single search. It:
 
 ## Install
 
-The core of this skill is a single markdown file: [`.claude/skills/s/SKILL.md`](.claude/skills/s/SKILL.md). It's a prompt that instructs an AI coding agent how to search, synthesize, and format results.
+The core of this skill is a single markdown file: [`SKILL.md`](.claude/skills/s/SKILL.md). It's a prompt that instructs an AI coding agent how to search, synthesize, and format results.
 
-### Quick install (if your agent uses a `.claude/skills/` directory)
+### Quick install
 
-1. Clone this repo (or just grab the skill folder):
+1. Clone this repo:
 
 ```bash
 git clone https://github.com/jnemargut/search-the-web.git
 ```
 
-2. Copy the skill into your global skills directory:
+2. Copy the skill into your agent's skills directory. For example:
 
 ```bash
 cp -r search-the-web/.claude/skills/s ~/.claude/skills/s
@@ -145,9 +145,9 @@ cp -r search-the-web/.claude/skills/s ~/.claude/skills/s
 /s your query here
 ```
 
-### For other AI coding agents
+### Adapting for other agents
 
-If your coding agent supports custom instructions, rules files, or skills, you can adapt the SKILL.md to your agent's format. The key requirements are:
+If your coding agent uses a different directory structure for custom instructions, rules, or skills, just grab the `SKILL.md` file and adapt it to your agent's format. The key requirements are:
 - The agent needs web search capability
 - The agent needs to be able to run multiple searches in parallel
 - The agent should output inline markdown
