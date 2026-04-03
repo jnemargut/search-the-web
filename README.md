@@ -95,17 +95,17 @@ With `/s`, you:
 
 ## How It's Different
 
-| | Traditional Search Engine | AI Answer Engine | `/s` |
-|---|---|---|---|
-| **Where it runs** | Browser (context switch) | Browser or separate app | Right in your terminal |
-| **What you get** | 10 blue links to read yourself | 1 synthesized answer | 3 opinionated mini-briefings |
-| **Source diversity** | One algorithm's ranking | One synthesis, few sources | Multi-angle (general + community + reviews) |
-| **Verdicts** | None, you decide | Sometimes | Every result: "Best for: ..." |
-| **Ratings** | None | None | Adaptive per query type |
-| **Deep links** | Yes | Sometimes | Yes, to specific pages |
-| **Refinement** | New search from scratch | Conversational | Conversational: "but cheaper" |
-| **More results** | Page 2 (who goes there?) | Ask again | Say "more" for 3 fresh ones |
-| **Context switch** | Yes, leave your editor | Yes, separate app | None, stay in your flow |
+| | Traditional Search Engine | AI Answer Engine | Built-in Web Tool | `/s` |
+|---|---|---|---|---|
+| **Where it runs** | Browser (context switch) | Browser or separate app | Inside your coding agent | Inside your coding agent |
+| **What you get** | 10 blue links to read yourself | 1 synthesized answer | Raw search results the AI reads | 3 opinionated mini-briefings |
+| **Source diversity** | One algorithm's ranking | One synthesis, few sources | Whatever the agent decides to search | Multi-angle (general + community + reviews) |
+| **Verdicts** | None, you decide | Sometimes | None | Every result: "Best for: ..." |
+| **Ratings** | None | None | None | Adaptive per query type |
+| **Structured format** | Link list | Prose paragraph | Varies wildly | Consistent briefings every time |
+| **Refinement** | New search from scratch | Conversational | Ask the agent again | "but cheaper" or "more" |
+| **You have to ask for it** | Yes, open browser | Yes, open app | No, but results are unpredictable | No, and format is always the same |
+| **Context switch** | Yes, leave your editor | Yes, separate app | None | None |
 
 ---
 
