@@ -1,6 +1,6 @@
 # /s - Search the Web From Your Coding Agent
 
-A skill for AI coding agents that turns your terminal into a research assistant. Type a query like you'd type into a search engine, get back 3 synthesized mini-briefings with opinionated verdicts, ratings, and source links. No tab-switching. No 10 blue links. No leaving your flow.
+A skill for AI coding agents that turns your terminal into a research assistant. Type a query like you'd type into a search engine, get back 3 synthesized mini-briefings with opinionated verdicts, ratings, and source links. No tab-switching. No a pile of links. No leaving your flow.
 
 ```
 /s best laptop under $1000
@@ -104,7 +104,7 @@ Sure. And sometimes it's great. But have you noticed how inconsistent the result
 | | Traditional Search Engine | AI Answer Engine | Built-in Web Tool | `/s` |
 |---|---|---|---|---|
 | **Where it runs** | Browser (context switch) | Browser or separate app | Inside your coding agent | Inside your coding agent |
-| **What you get** | 10 blue links to read yourself | 1 synthesized answer | Raw search results the AI reads | 3 opinionated mini-briefings |
+| **What you get** | a pile of links to read yourself | 1 synthesized answer | Raw search results the AI reads | 3 opinionated mini-briefings |
 | **Source diversity** | One algorithm's ranking | One synthesis, few sources | Whatever the agent decides to search | Multi-angle (general + community + reviews) |
 | **Verdicts** | None, you decide | Sometimes | None | Every result: "Best for: ..." |
 | **Ratings** | None | None | None | Adaptive per query type |
