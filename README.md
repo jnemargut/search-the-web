@@ -1,4 +1,4 @@
-# /s — Search the Web From Your Coding Agent
+# /s - Search the Web From Your Coding Agent
 
 A skill for AI coding agents that turns your terminal into a research assistant. Type a query like you'd type into a search engine, get back 3 synthesized mini-briefings with opinionated verdicts, ratings, and source links. No tab-switching. No 10 blue links. No leaving your flow.
 
@@ -13,47 +13,50 @@ That's it. You're searching the web, from your coding agent, while you code.
 ## What It Looks Like
 
 ```
-╭─────────────────────────────────────────────────────────────────╮
-│ > /s best pizza apex nc                                         │
-│                                                                 │
-│ ### 1. Mezza Luna Pizzeria — Apex, NC                           │
-│                                                                 │
-│ Authentic NY pizza and Southern Italian cuisine that locals      │
-│ consistently rank as Apex's best. Their Grandma Pie gets singled │
-│ out repeatedly — "amazing crust, fresh sauce, perfect amount of  │
-│ cheese" according to reviewers. Shows up on virtually every      │
-│ "best of Apex" list.                                            │
-│                                                                 │
-│ Best for: NY pizza loyalists who want a real slice               │
-│ Ratings: Quality 9/10 · Value 7/10 · Vibe 7/10                  │
-│ Links: [Tripadvisor Review] · [Yelp Page]                       │
-│ Sources: tripadvisor.com · yelp.com · pizzaware.com              │
-│ ─────────────────────────────────────────────────────────────    │
-│ ### 2. Frasketta Pizza Romana — Downtown Apex                    │
-│                                                                 │
-│ Roman-style pizza in a town full of NY slices. Limited hours     │
-│ (Tue-Sat) signal a small-batch, quality-focused operation.       │
-│ The Roman style sets it apart from everything else nearby.       │
-│                                                                 │
-│ Best for: Pizza nerds who want something different               │
-│ Ratings: Quality 9/10 · Value 6/10 · Vibe 9/10                  │
-│ Links: [Official Site] · [Tripadvisor Review]                    │
-│ Sources: tripadvisor.com · yelp.com · fraskettapizza.com         │
-│ ─────────────────────────────────────────────────────────────    │
-│ ### 3. J & S New York Pizza — 804 Perry Rd                       │
-│                                                                 │
-│ The OG. Serving Apex since 1995. Family-owned with 30 years of  │
-│ staying power. Not the fanciest, but reliable and loved.         │
-│                                                                 │
-│ Best for: Families who want dependable, no-frills NY pizza       │
-│ Ratings: Quality 7/10 · Value 8/10 · Vibe 6/10                  │
-│ Links: [Official Site] · [Yelp Page]                             │
-│ Sources: jandsnypizza.com · yelp.com · tripadvisor.com           │
-│ ─────────────────────────────────────────────────────────────    │
-│ Searched 30+ sources across 3 searches.                          │
-│ Say "more" for 3 more results, or refine: just tell me           │
-│ what to change.                                                  │
-╰─────────────────────────────────────────────────────────────────╯
+> /s best tacos portland or
+
+  1. Birria Balam - SE Division St
+
+  Rich birria tacos with a crispy, cheese-crusted tortilla and a
+  consomme that reviewers call "life-changing." Cash only, tiny
+  space, usually a line out the door on weekends.
+
+  Best for: Birria lovers willing to wait for the real deal
+  Ratings: Quality 9/10 · Value 8/10 · Vibe 7/10
+  Links: [Eater PDX Review] · [Yelp Page]
+  Sources: eater.com · yelp.com · pdx.eater.com
+
+  ---
+
+  2. Matt's BBQ Tacos - NE MLK Blvd
+
+  A collision of Texas BBQ and tacos that somehow works perfectly.
+  Brisket taco with pickled onion is the move. Located inside a
+  pod, so seating is outdoor picnic tables.
+
+  Best for: The person who can't decide between BBQ and tacos
+  Ratings: Quality 9/10 · Value 7/10 · Vibe 8/10
+  Links: [Official Site] · [Eater Review]
+  Sources: mattsbbqpdx.com · eater.com · tripadvisor.com
+
+  ---
+
+  3. Tienda y Taqueria Santa Cruz - NE Prescott
+
+  No-frills neighborhood taqueria with $3 street tacos that punch
+  way above their weight. Al pastor on the spit, fresh tortillas,
+  and a salsa bar worth the visit alone.
+
+  Best for: Budget-friendly authenticity over atmosphere
+  Ratings: Quality 8/10 · Value 10/10 · Vibe 5/10
+  Links: [Yelp Page]
+  Sources: yelp.com · reddit.com/r/Portland · tripadvisor.com
+
+  ---
+
+  Searched 30+ sources across 3 searches.
+  Say "more" for 3 more results, or refine: just tell me
+  what to change.
 ```
 
 Then just keep talking:
@@ -70,7 +73,7 @@ It remembers your search and refines naturally.
 
 ## Why This Exists
 
-You're deep in code. A thought pops into your head — "what's the best way to handle auth tokens?" or "where should I eat lunch?" or "what laptop should I buy?"
+You're deep in code. A thought pops into your head: "what's the best way to handle auth tokens?" or "where should I eat lunch?" or "what laptop should I buy?"
 
 Normally you'd:
 1. Switch to a browser
@@ -86,7 +89,7 @@ With `/s`, you:
 2. Get 3 synthesized answers with verdicts and ratings
 3. Keep coding
 
-**It does what you'd do after a search — but skips the 20 minutes of clicking, reading, and comparing.** Like having a research assistant who reads 15 tabs so you don't have to.
+**It does what you'd do after a search, but skips the 20 minutes of clicking, reading, and comparing.** Like having a research assistant who reads 15 tabs so you don't have to.
 
 ---
 
@@ -97,12 +100,12 @@ With `/s`, you:
 | **Where it runs** | Browser (context switch) | Browser or separate app | Right in your terminal |
 | **What you get** | 10 blue links to read yourself | 1 synthesized answer | 3 opinionated mini-briefings |
 | **Source diversity** | One algorithm's ranking | One synthesis, few sources | Multi-angle (general + community + reviews) |
-| **Verdicts** | None — you decide | Sometimes | Every result: "Best for: ..." |
+| **Verdicts** | None, you decide | Sometimes | Every result: "Best for: ..." |
 | **Ratings** | None | None | Adaptive per query type |
-| **Deep links** | Yes | Sometimes | Yes — to specific pages |
-| **Refinement** | New search from scratch | Conversational | Conversational — "but cheaper" |
+| **Deep links** | Yes | Sometimes | Yes, to specific pages |
+| **Refinement** | New search from scratch | Conversational | Conversational: "but cheaper" |
 | **More results** | Page 2 (who goes there?) | Ask again | Say "more" for 3 fresh ones |
-| **Context switch** | Yes — leave your editor | Yes — separate app | None — stay in your flow |
+| **Context switch** | Yes, leave your editor | Yes, separate app | None, stay in your flow |
 
 ---
 
@@ -110,17 +113,19 @@ With `/s`, you:
 
 The skill doesn't just run a single search. It:
 
-1. **Classifies your intent** — is this a recommendation, a product comparison, a how-to, a factual question, or a local search?
-2. **Searches from multiple angles** — general web, community discussions, and specialist review sites. Different angles for different intents.
-3. **Deduplicates and synthesizes** — same result from 3 sources? Merged into one briefing with the best info from each.
-4. **Adds judgment** — a "Best for" verdict on every result telling you *who* it's ideal for. Plus adaptive ratings that change based on what you're searching (Quality/Value/Vibe for restaurants, Performance/Build/Value for products, Clarity/Completeness for tutorials).
-5. **Cites everything** — every result includes source links so you can verify.
+1. **Classifies your intent**: is this a recommendation, a product comparison, a how-to, a factual question, or a local search?
+2. **Searches from multiple angles**: general web, community discussions, and specialist review sites. Different angles for different intents.
+3. **Deduplicates and synthesizes**: same result from 3 sources? Merged into one briefing with the best info from each.
+4. **Adds judgment**: a "Best for" verdict on every result telling you *who* it's ideal for. Plus adaptive ratings that change based on what you're searching (Quality/Value/Vibe for restaurants, Performance/Build/Value for products, Clarity/Completeness for tutorials).
+5. **Cites everything**: every result includes source links so you can verify.
 
 ---
 
 ## Install
 
-### For Claude Code users
+The core of this skill is a single markdown file: [`.claude/skills/s/SKILL.md`](.claude/skills/s/SKILL.md). It's a prompt that instructs an AI coding agent how to search, synthesize, and format results.
+
+### Quick install (if your agent uses a `.claude/skills/` directory)
 
 1. Clone this repo (or just grab the skill folder):
 
@@ -142,9 +147,7 @@ cp -r search-the-web/.claude/skills/s ~/.claude/skills/s
 
 ### For other AI coding agents
 
-The core of this skill is a single markdown file: [`.claude/skills/s/SKILL.md`](.claude/skills/s/SKILL.md). It's a prompt that instructs an AI agent how to search, synthesize, and format results.
-
-If your coding agent supports custom instructions or skills, you can adapt the SKILL.md to your agent's format. The key requirements are:
+If your coding agent supports custom instructions, rules files, or skills, you can adapt the SKILL.md to your agent's format. The key requirements are:
 - The agent needs web search capability
 - The agent needs to be able to run multiple searches in parallel
 - The agent should output inline markdown
@@ -155,7 +158,7 @@ If your coding agent supports custom instructions or skills, you can adapt the S
 
 **Local recommendations:**
 ```
-/s best coffee shops downtown durham
+/s best coffee shops downtown portland
 /s things to do this weekend in austin
 /s good running trails near me
 ```
@@ -192,7 +195,7 @@ If your coding agent supports custom instructions or skills, you can adapt the S
 ```
 /s what's that design pattern where you wrap an object to add behavior
 /s is daylight saving time this weekend
-/s good team lunch spots near downtown raleigh
+/s good team lunch spots near downtown denver
 ```
 
 ---
@@ -201,7 +204,7 @@ If your coding agent supports custom instructions or skills, you can adapt the S
 
 Two keystrokes. That's intentional.
 
-If this skill is going to replace switching to a browser, it needs to be faster than switching to a browser. `/s` is to web search what `Cmd+K` is to a search bar — muscle memory, not a decision.
+If this skill is going to replace switching to a browser, it needs to be faster than switching to a browser. `/s` is to web search what `Cmd+K` is to a search bar: muscle memory, not a decision.
 
 You don't type `/search-the-web-and-synthesize-results`. You type `/s`. Then your query. Then you're back to work.
 
@@ -246,7 +249,7 @@ Ratings change based on what you're searching for. The skill picks dimensions th
 | Services | Quality / Price / Reliability |
 | Activities | Quality / Accessibility / Value |
 | Tutorials | Clarity / Completeness |
-| Factual | *(no ratings — just the answer)* |
+| Factual | *(no ratings, just the answer)* |
 
 Ratings use the full 1-10 range. A budget pick might get Value 9/10 but Quality 6/10. That's useful. If everything gets 8/10, ratings are worthless.
 
