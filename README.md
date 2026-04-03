@@ -91,6 +91,12 @@ With `/s`, you:
 
 **It does what you'd do after a search, but skips the 20 minutes of clicking, reading, and comparing.** Like having a research assistant who reads 15 tabs so you don't have to.
 
+### "But my coding agent already has web search"
+
+Sure. And sometimes it's great. But have you noticed how inconsistent the results are? Sometimes you get a nice summary. Sometimes you get a wall of raw text. Sometimes it searches once and calls it done. Sometimes it goes on a 30-second research bender you didn't ask for.
+
+`/s` is opinionated about this. Every search gets the same treatment: multiple angles, structured briefings, verdicts, ratings, sources. You always know what you're getting. It's the difference between "hey, look something up for me" and having a process that reliably delivers useful results every single time.
+
 ---
 
 ## How It's Different
