@@ -104,7 +104,7 @@ Sure. And sometimes it's great. But have you noticed how inconsistent the result
 | | Traditional Search Engine | AI Answer Engine | Built-in Web Tool | `/s` |
 |---|---|---|---|---|
 | **Where it runs** | Browser (context switch) | Browser or separate app | Inside your coding agent | Inside your coding agent |
-| **What you get** | a pile of links to read yourself | 1 synthesized answer | Raw search results the AI reads | 3 opinionated mini-briefings |
+| **What you get** | A pile of links to read yourself | 1 synthesized answer | Raw search results the AI reads | 3 opinionated mini-briefings |
 | **Source diversity** | One algorithm's ranking | One synthesis, few sources | Whatever the agent decides to search | Multi-angle (general + community + reviews) |
 | **Verdicts** | None, you decide | Sometimes | None | Every result: "Best for: ..." |
 | **Ratings** | None | None | None | Adaptive per query type |
