@@ -133,12 +133,24 @@ The entire skill is a single file: [`SKILL.md`](SKILL.md). It's a prompt that in
 git clone https://github.com/jnemargut/search-the-web.git
 ```
 
-2. Copy `SKILL.md` into your agent's skills directory (wherever that lives for your setup):
+2. Copy `SKILL.md` into your agent's skills or rules directory:
 
+**Claude Code:**
 ```bash
-# Example — adjust the path for your agent
-mkdir -p ~/.your-agent/skills/s
-cp search-the-web/SKILL.md ~/.your-agent/skills/s/SKILL.md
+mkdir -p ~/.claude/skills/s
+cp search-the-web/SKILL.md ~/.claude/skills/s/SKILL.md
+```
+
+**Cursor:**
+```bash
+mkdir -p .cursor/rules
+cp search-the-web/SKILL.md .cursor/rules/search.md
+```
+
+**Windsurf:**
+```bash
+mkdir -p .windsurf/rules
+cp search-the-web/SKILL.md .windsurf/rules/search.md
 ```
 
 3. That's it. Open any project and type:
